@@ -1,6 +1,6 @@
 import { useState, useEffect, createContext } from "react";
 import clienteAxios from "../config/axios";
-import { useNavigate } from "react-router-dom";
+
 
 const AuthContext = createContext()
 
@@ -8,7 +8,7 @@ const AuthProvider = ({ children }) => {
 
     const [cargando, setCargando] = useState(true)
     const [auth, setAuth] = useState({})
-    const navigate = useNavigate()
+   
 
 
     useEffect(() => {
