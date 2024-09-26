@@ -11,7 +11,7 @@ import AdministrarPacientes from './paginas/AdministrarPacientes'
 import EditarPerfil from './paginas/EditarPerfil'
 import CambiarPassword from './paginas/CambiarPassword'
 
-import { AuthProvider } from './context/authProvider'
+import { AuthProvider } from './context/AuthProvider'
 import { PacientesProvider } from './context/PacientesProvider'
 
 function App() {
